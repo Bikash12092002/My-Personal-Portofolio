@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikash Personal Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/jpg" href="/BIKASH.jpg" />
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">My Portfolio.</a>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Bikash Kumar Barik</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <h3 style="color: darkcyan;">From Balasore,Odisha</h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/bikash-kumar-barik-56b5a3385" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Bikash12092002" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/your-username" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/bikashkumar_silu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/bikashkumar.bariksilu.3" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="my-cv.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img  src="photo resume.jpeg" alt="Bikash Kumar Barik">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+    <div class="about-img">
+        <img style="height: 60rem;" src="BIKASH.jpg" alt="About Me">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>An enthusiastic student, who is a self starter and capable to use my Technical skills for the betterment of the organisation. A Master Degree in Computer Application has enhance my Proficiency in Developing Web Application.</p>
+
+        <div class="tab-titles">
+            <p style="margin-left: 30px;"class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p style="margin-left: 30px;" class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p style="margin-left: 30px;"class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Frontend</span><br>HTML, CSS, Javascript, React JS,Bootstrap,TalwindCSS </li>
+                <li><span>Backend</span><br>CoreJava, Node JS,Express JS</li>
+                <li><span>Database</span><br>MySQL, Oracle, mongoDB</li>
+                <li><span>Leadership</span><br>Good Leadership & Interpersonal Skills</li>
+                <li><span>Smart Worker</span><br>Working Smartly</li>
+                <li><span>Project Management</span><br>Good Project Management</li>
+            </ul> 
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2021 </span><br>Teacher at Maa Bagdevi english medium Coaching center</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2024 -Current</span><br>MCA from USBM,Bhubaneswar(BPUT University)</li>
+                <li><span>2020</span><br>Bsc(Chemestry) from Gopalpur College,Gopalpur</li>
+                <li><span>2018</span><br>Intermediate from Sahed Memorial HS School,Eram</li>
+                <li><span>2017</span><br>High School from Dahisada High School,Dahisada</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Website redesigning, Customer website designing and web development, assistance with domain and web hosting, google business profile setup, building specific web pages, graphic and logo designing, etc.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>Investigate workshop, business requirements, customer journey maps, design information archetecture, wireframes, prototypes, visual design, usability testing, design quality control, etc.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>Update the look of an app align with current design trends, use market research and user behavior insights, refine the design based on feedback from user, testing to improve user experience, usability and functionality.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+          <div class="project-item">
+                 <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>
+             <div class="portfolio-box">
+                <img style="height: 30rem;" src="wanderlust.jpg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4 style="color: blue;">Wanderlust</h4>
+                    <p>This is is a <b>Fullstack</b> airbnb clone app which named Wanderlust.</p>
+                    <a href="https://wanderlust-airbnb-clone-ctp9.onrender.com" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+             </div>
+            </div>
+
+         <div class="project-item">
+                <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>
+             <div class="portfolio-box">
+                <img style="height: 30rem;" src="weather image.jpg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4 style="color: chocolate;"> My Weather App</h4>
+                    <p>This is a weather app which is built by <b>ReactJS and Material UI</b> and data collected by integrating API.</p>
+                    <a href="https://bikashweather-app.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+             </div>
+         </div>
+
+
+          <div class="project-item">
+                <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>
+             <div class="portfolio-box">
+                <img style="height: 30rem;" src="Foodify image.jpg" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4 style="color: chartreuse;">Foodify</h4>
+                    <p>This is a <b>MERN Fullstack</b> food delhivery app which named <B>Foodify</B></p>
+                    <a href="https://foodify-frontend-a9kt.onrender.com" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+             </div>
+          </div>
+            
+          <div class="project-item">
+                <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>
+             <div class="portfolio-box">
+                <img style="height: 30rem;" src="calculator.jpg" alt="Project 4">
+                <div class="portfolio-layer">
+                    <h4 style="color: crimson;">Calculator</h4>
+                    <p>This is simple Calculator made up using HTML,CSS,JAVASCRIPT.</p>
+                    <a href="https://bikashcalculator.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+          <div class="project-item">
+                <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>  
+             <div class="portfolio-box">
+                <img style="height: 30rem;" src="zerodha.jpg" alt="Project 5">
+                <div class="portfolio-layer">
+                    <h4 style="color: darkgoldenrod;">Zerodha Clone</h4>
+                    <p>This is a stock market <b>MERN Fullstack</b> <b>Zerodha</b> clone app which is I am currently building</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>  
+        </div>
+
+        <div class="project-item">
+                <h4 style="color: blueviolet;" class="project-title">(Click to view website)</h4>  
+           <div class="portfolio-box">
+                <img style="height: 30rem;" src="https://placehold.co/600x400/323946/0ef" alt="Project 6">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+   <div class="contact-info">
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <p><a href="mailto:bikashkumarbarik2002@gmail.com">bikashkumarbarik2002@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <p><a href="tel:+919937062318">+919937062318</a></p>
+        </div>
+        <div class="contact-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <p><a href="https://www.linkedin.com/in/bikash-kumar-barik-56b5a3385" target="_blank">Linkedin</a></p>
+        </div>
+        <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <p><a href="https://github.com/Bikash12092002" target="_blank">github</a></p>
+        </div>
+    </div>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Your Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Your Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Bikash | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
